@@ -1,0 +1,6 @@
+typer>=0.24.0,<0.25
+python-dotenv>=1.0.0,<2
+requests>=2.32.0,<3
+playwright>=1.58.0,<2
+APScheduler>=3.11.0,<4
+pytest>=9.0.0,<10
