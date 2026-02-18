@@ -2,7 +2,7 @@
 
 This folder contains a simple web UI for the existing backend CLI.
 It does not replace backend logic, it only wraps commands with buttons.
-
+<img width="2342" height="1267" alt="image" src="https://github.com/user-attachments/assets/5834177e-7800-4e6c-a54e-9f41f5dc1bb1" />
 ## Files
 
 - `frontend_version/app.py`: single frontend script
@@ -58,3 +58,7 @@ http://127.0.0.1:7860
 - Keep using authorized questionnaire links only.
 - If proxy health checks fail, `doctor` and `run` will show errors in output.
 - `Start Schedule` launches one background scheduler process from this UI.
+
+
+
+
