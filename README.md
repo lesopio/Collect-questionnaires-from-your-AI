@@ -16,12 +16,12 @@
 - 从代理 API 拉取代理并轮换使用。
 - 检测验证码时暂停，支持人工接管继续。
 - 命令：`doctor` / `scan` / `run` / `schedule`。
-- frontend_version里面有gradio前端版本
+- frontend_version里面有gradio前端版本。
 
 ## 项目结构
 
 ```text
-.
+。
 ├─ src/
 ├─ tests/
 ├─ mappings/
@@ -213,6 +213,7 @@ python -m src.main schedule --cron "*/30 * * * *"
 
 - `Tasks contain URLs not present in 网址.txt`  
   保证 `人格配置.json` 里的 `tasks[].url` 与 `网址.txt` 一致。
+
 
 
 
