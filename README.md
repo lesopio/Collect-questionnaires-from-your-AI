@@ -4,9 +4,9 @@
 
 ## 合规声明
 
-- 仅对你明确授权的问卷链接使用本工具。
+- 仅对明确授权的问卷链接使用本工具。
 - 不提供验证码绕过、风控绕过能力。
-- 使用者需自行遵守平台条款与法律法规。
+- 需自行遵守平台条款与法律法规。
 
 ## 功能概览
 
@@ -20,7 +20,7 @@
 ## 项目结构
 
 ```text
-.
+。
 ├─ src/
 ├─ tests/
 ├─ mappings/
@@ -28,7 +28,6 @@
 │  ├─ logs/
 │  ├─ screenshots/
 │  └─ state/
-├─ readme/
 ├─ 网址.txt
 ├─ 人格配置.json
 └─ requirements.txt
@@ -213,10 +212,4 @@ python -m src.main schedule --cron "*/30 * * * *"
 - `Tasks contain URLs not present in 网址.txt`  
   保证 `人格配置.json` 里的 `tasks[].url` 与 `网址.txt` 一致。
 
-## GitHub 公开发布前检查
-
-- 不提交真实 `.env`。
-- 轮换已暴露密钥（LLM Key、代理 Key）。
-- 检查 `data/logs`、`data/screenshots` 是否包含敏感信息。
-- 仅在你有授权的问卷环境中使用。
 
